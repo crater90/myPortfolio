@@ -11,7 +11,7 @@ const About: NextPage = () => {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="Description" content="Put your description here." />
+        <meta name="Description" content="My past projects and learnings." />
       </Head>
       <section className="max-w-5xl w-11/12 px-4 md:px-0 pt-24 md:pt-28 lg:pt-32 mx-auto md:w-3/4 lg:w-10/12 dark:text-gray-300">
         <div className="divide-y divide-gray-800">
