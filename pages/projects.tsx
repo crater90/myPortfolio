@@ -4,7 +4,7 @@ import React from 'react'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import { LeftProjectLayoutLarge, ProjectLayoutMed, RightProjectLayoutLarge } from '@src/containers/projectLayout'
-import { covid19, keepClone, reelsDb, lift } from '../src/containers/projectData'
+import { mygram, daftar, notepad, myPortfolio, banana, chef, emoji, songRecommendation, cashRegister, luckyBirthday, funWithTriangles, pallindrome, stock, cliApp, cliApp2 } from '../src/containers/projectData'
 
 const About: NextPage = () => {
   return (
@@ -24,14 +24,37 @@ const About: NextPage = () => {
             </p>
           </div>
           <div className="space-y-6 xl:space-y-10 ">
-            <ProjectLayoutMed project={lift} />
-            <ProjectLayoutMed project={covid19} />
-            <ProjectLayoutMed project={reelsDb} />
-            <ProjectLayoutMed project={keepClone} />
-            <LeftProjectLayoutLarge project={lift} />
-            <RightProjectLayoutLarge project={covid19} />
-            <LeftProjectLayoutLarge project={reelsDb} />
-            <RightProjectLayoutLarge project={keepClone} />
+            <ProjectLayoutMed project={mygram} />
+            <ProjectLayoutMed project={daftar} />
+            <ProjectLayoutMed project={notepad} />
+            <ProjectLayoutMed project={myPortfolio} />
+            <ProjectLayoutMed project={stock} />
+            <ProjectLayoutMed project={cashRegister} />
+            <ProjectLayoutMed project={pallindrome} />
+            <ProjectLayoutMed project={funWithTriangles} />
+            <ProjectLayoutMed project={luckyBirthday} />
+            <ProjectLayoutMed project={songRecommendation} />
+            <ProjectLayoutMed project={emoji} />
+            <ProjectLayoutMed project={chef} />
+            <ProjectLayoutMed project={banana} />
+            <ProjectLayoutMed project={cliApp2} />
+            <ProjectLayoutMed project={cliApp} />
+
+            <LeftProjectLayoutLarge project={mygram} />
+            <RightProjectLayoutLarge project={daftar} />
+            <LeftProjectLayoutLarge project={notepad} />
+            <RightProjectLayoutLarge project={myPortfolio} />
+            <LeftProjectLayoutLarge project={stock} />
+            <RightProjectLayoutLarge project={cashRegister} />
+            <LeftProjectLayoutLarge project={pallindrome} />
+            <RightProjectLayoutLarge project={funWithTriangles} />
+            <LeftProjectLayoutLarge project={luckyBirthday} />
+            <RightProjectLayoutLarge project={songRecommendation} />
+            <LeftProjectLayoutLarge project={emoji} />
+            <RightProjectLayoutLarge project={chef} />
+            <LeftProjectLayoutLarge project={banana} />
+            <RightProjectLayoutLarge project={cliApp2} />
+            <LeftProjectLayoutLarge project={cliApp} />
           </div>
         </div>
       </section>

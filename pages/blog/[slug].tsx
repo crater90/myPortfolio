@@ -107,11 +107,7 @@ const BlogPage: NextPage<AllBlogProps> = ({ articleContent, blogDetails }) => {
 }
 
 const getAllBlogs = async () => {
-  const res = await fetch('https://dev.to/api/articles?username=prnvbirajdar')
-
-  // const res = await fetch('https://dev.to/api/articles/me/published', {
-  //   headers: { 'api-key': '' || '' },
-  // })
+  const res = await fetch('https://dev.to/api/articles?username=crater90')
 
   if (res.status < 200 || res.status >= 300) {
     throw new Error(`Error fetching... Status code: ${res.status}, ${res.statusText}`)
